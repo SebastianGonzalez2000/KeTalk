@@ -4,6 +4,8 @@ This repository contains the Main Control Station and the code for each individu
 
 Each radiation station communicates to the main control station over the internet to send the parsed dose rate and report any levels of radiation that are considered dangerously high. Both stations periodically record this information on a log file with a time stamp for later reference. 
 
+Every single radiation station was implemented by a Raspberry Pi 4 model B running the code, connected via ethernet to the radiation detector hardware. This allows the system to be more portable and easy to place in hotspots that could be producing high levels of radiation for constant monitoring.
+
 ### Skills I learned
 
  - Designing distributed system applications
